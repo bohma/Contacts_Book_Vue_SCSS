@@ -87,8 +87,8 @@
         <button class="contact_add-btn btn" @click="showAddForm()">Добавить поле</button>
       </div>
       <div v-if="field.isField">
-        <input class="form__text" type="text" placeholder="Field name" v-model="field.nameField" />
-        <input class="form__text" type="text" placeholder="Data" v-model="field.dataField" />
+        <input class="form__text" type="text" placeholder="Имя поля" v-model="field.nameField" />
+        <input class="form__text" type="text" placeholder="Значение поля" v-model="field.dataField" />
         <button class="btn contact__add-btn" @click="addField">Сохранить</button>
       </div>
     </div>
